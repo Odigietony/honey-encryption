@@ -1,0 +1,8 @@
+﻿ .field-validation-error{
+     color: black !important;
+     font-weight: bolder;
+ }
+.validation-error {
+    color: black !important;
+    font-weight: bolder;
+}

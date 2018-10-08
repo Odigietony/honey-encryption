@@ -1,0 +1,23 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_DashBoardLayout.cshtml";
+    ViewBag.Title = "DashBoard";
+}
+
+<h2>DashBoard</h2>
+
+@if (Session["Username"] != null)
+{
+
+    <div class="name">
+        <h4>Welcome @Session["Username"].ToString()<br /><small>Blogger</small></h4>
+    </div>
+    <hr />
+    <div class="">
+        <img src="@Url.Content("~/Content/Custom/paper_img/")LabijaOjoneJoy.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+    </div>
+
+    
+} 
+
+
